@@ -191,17 +191,17 @@ nav ul li:hover {
 }
 
 .thumb-title {
-	font-size: 18px;
+	font-size: 17px;
+	font-weight: lighter;
 	color: #8c9eff;
 }
 
 .thumb-description p {
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .thumb-date {
-	/*color: #8c9eff;*/
-	/*font-weight: bold;*/
+	color: #757575;
 	display: block;
 	margin-top: 15px;
 }
