@@ -32,7 +32,7 @@
 							<li><a href="#">More</a></li>
 						</ul>
 
-						<ul class="side-nav grey darken-3" id="mobile-demo">
+						<ul class="side-nav grey darken-4" id="mobile-demo">
 							<li><a href="#">Music</a></li>
 							<li><a href="#">Videos</a></li>
 							<li><a href="#">Events</a></li>
@@ -41,11 +41,34 @@
 							<li><a href="#">More</a></li>
 						</ul>
 
-						<a href="#" class="user-avatar right">
+						<a href="#" class="user-avatar right admin-collapse" data-activates="slide-out">
 							<img src="images/avatar.gif" class="avatar-image circle">
 						</a>
 
-						<a href="#" class="username right">Steve</a>
+						<a href="#" class="username right admin-collapse" data-activates="slide-out">Steve</a>
+
+						<!-- Admin Menu Start -->
+						<ul id="slide-out" class="side-nav grey darken-4">
+						    <li>
+						    	<div class="userView">
+							    	<img class="background background-myatlas-menu" src="images/vice/v-1.jpg">
+									<a href="#!user"><img class="circle" src="images/avatar.gif"></a>
+									<a href="#!name"><span class="white-text name">John Doe</span></a>
+									<a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+						    	</div>
+						    </li>
+						    <li><a href="#!">My Channel Home</a></li>
+						    <li><a href="#!">Subscriptions</a></li>
+						    <li><a href="#!">Shopping</a></li>
+						    <li><a href="#!">Upload or Record</a></li>
+						    <li><a href="#!">Manage Content</a></li>
+						    <li><a href="#!">Settings</a></li>
+						    <li><a href="#!">Sign Out</a></li>
+					  </ul>
+
+					  <!-- <a href="#" data-activates="slide-out" class="admin-collapse"><i class="material-icons">menu</i></a> -->
+					  <!-- Admin Menu End -->
+
 					</div>
 				</nav>
 			</div>
@@ -330,6 +353,15 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 		<script type="text/javascript">
 			$(".button-collapse").sideNav({edge: 'left'});
+
+			// $(".button-collapse").sideNav();
+
+			$('.admin-collapse').sideNav({
+					menuWidth: 300, // Default is 240
+					edge: 'right', // Choose the horizontal origin
+					closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+				}
+			);
 		</script>
 	</body>
 </html>

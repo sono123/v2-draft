@@ -15,8 +15,8 @@ body {
   position: absolute;
   z-index: -1;
   background-attachment: fixed;
-}*/
-
+}
+*/
 
 
 /* Global Font Sizes (smaller than headers) */
@@ -46,6 +46,62 @@ body {
 }
 
 
+
+/*---------- Global Margins & Padding ----------*/
+
+.no-margin {
+    margin: 0 !important;
+}
+
+/* Margin 15 */
+
+.m-top-15 {
+    margin-top: 15px !important;
+}
+
+.m-right-15 {
+    margin-right: 15px !important;
+}
+
+.m-bottom-15 {
+    margin-bottom: 15px !important;
+}
+
+.m-left-15 {
+    margin-left: 15px !important;
+}
+
+
+/* Padding 15 */
+
+.p-top-15 {
+    padding-top: 15px !important;
+}
+
+.p-right-15 {
+    padding-right: 15px !important;
+}
+
+.p-bottom-15 {
+    padding-bottom: 15px !important;
+}
+
+.p-left-15 {
+    padding-left: 15px !important;
+}
+
+
+/* Line Height */
+
+.line-height-md {
+	line-height: 1.25;
+}
+
+.line-height-lg {
+	line-height: 2;
+}
+
+
 .row {
 	/* need this dont delete */
 	position: relative;
@@ -54,6 +110,54 @@ body {
 p {
 	font-weight: lighter;
 }
+
+
+
+/* Headers and Breakers */
+
+.breaker-thin {
+	height: 50px;
+}
+
+.breaker-med {
+	height: 75px;
+}
+
+
+
+/* Section Heights */
+
+.short-section {
+	height: 100px;
+}
+
+.medium-section {
+	height: 200px;
+}
+
+.tall-section {
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Styles */
 
 nav {
 	font-weight: lighter;
@@ -104,6 +208,12 @@ nav ul li:hover {
 .button-collapse {
 	margin-left: -40px;
 }
+
+.background-myatlas-menu {
+	width: 100%;
+}
+
+
 
 /* VIDEO PLAYER STYLES */
 
